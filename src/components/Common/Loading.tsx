@@ -1,6 +1,6 @@
-import { Box, CircularProgress } from '@mui/material';
+import { Box, CircularProgress } from "@mui/material";
 
-const Loading = (props: any) => {
+export const Loading = (props: any) => {
   return (
     <Box
       sx={{
@@ -15,5 +15,3 @@ const Loading = (props: any) => {
     </Box>
   );
 };
-
-export default Loading;
